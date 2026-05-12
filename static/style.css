@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:450px;
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 25px rgba(0,0,0,0.3);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.balance-box{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.balance-box p{
+    font-size:35px;
+    color:#38bdf8;
+    margin-top:10px;
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+input,select,button{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+
+button{
+    background:#38bdf8;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.history{
+    margin-top:25px;
+}
+
+.history h2{
+    margin-bottom:10px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    background:#334155;
+    margin-bottom:10px;
+    padding:12px;
+    border-radius:8px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.income{
+    border-left:5px solid limegreen;
+}
+
+.expense{
+    border-left:5px solid red;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:6px 10px;
+    border-radius:5px;
+    cursor:pointer;
+}
